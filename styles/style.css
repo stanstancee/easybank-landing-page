@@ -1,0 +1,30 @@
+* {
+  box-sizing: border-box;
+}
+.row::after {
+  content: "";
+  clear: both;
+  display: block;
+}
+[class*="col-"] {
+  float: left;
+  padding: 10px;
+}
+.col-1 {
+  width: 25%;
+}
+.col-2 {
+  width: 33.3%;
+}
+.col-3 {
+  width: 40%;
+}
+.col-4 {
+  width: 50%;
+}
+.col-5 {
+  width: 60%;
+}
+body {
+  margin: 10px 10px 30px 30px;
+}
